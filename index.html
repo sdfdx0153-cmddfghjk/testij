@@ -636,6 +636,18 @@ background-size: cover;
 <link rel="me" href="https://www.blogger.com/profile/10561680796761297758">
 <meta name="google-adsense-platform-account" content="ca-host-pub-1556223355139109">
 <meta name="google-adsense-platform-domain" content="blogspot.com">
+
+<!-- OneSignal Push Notifications Script -->
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "feed94d8-4f93-422e-9d80-25f9edd24c04",
+    });
+  });
+</script>
+
 </head>
 <body>
 <script type="application/javascript" src="js/ps.js"></script> 
